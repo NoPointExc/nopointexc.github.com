@@ -4,6 +4,8 @@ title: About Me
 tagline: Supporting tagline
 ---
 
+# Jiayang Sun 
+------------------------------------
 E-mail Address	:js8510@nyu.edu	
 
 
