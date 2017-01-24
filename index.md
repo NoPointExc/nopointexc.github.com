@@ -11,10 +11,9 @@ E-mail Address	:js8510@nyu.edu
 
 ## EDUCATIONAL QUALIFICATION
 - 2015-2017				MSc. Computer Engineering        New York University  (GAP 3.7/4.0)
-- 2011-2015				BSc. Communication Engineering  Nanjing University of Posts and Telecommunications  (GAP 3.7/4.0)
-## WORK EXPERIENCE
- 
+- 2011-2015				BSc. Communication Engineering  Nanjing University of Posts and Telecommunications  (GAP 3.7/4.0)   
 
+## WORK EXPERIENCE  
 *Intel, Software Engineer Intern, March 2016 – August 2016*  
 
 Worked in the Android Team (OTC) to stabilize the Android platform software from the system level, including Android OS integration, debugging and optimization on Intel platforms   
