@@ -127,3 +127,23 @@ public class OfyService {
     }
 }
 ```
+
+### query
+
+to get back the profile.  
+
+```
+	@ApiMethod(name = "getProfile", path = "profile", httpMethod = HttpMethod.GET)
+	public Profile getProfile(final User user) throws UnauthorizedException {
+		if (user == null) {
+			throw new UnauthorizedException("Authorization required");
+		}
+
+		// TODO
+		// load the Profile Entity
+		String userId = user.getUserId(); // TODO
+		Key key = Key.create(Profile.class, userId); // TODO
+		Profile profile = (Profile) ofy().load().key(key).now(); // TODO load the Profile entity
+		return profile;
+	}
+```
