@@ -165,7 +165,8 @@ sha1_crack()
 ```
 
 
-*to combine result*  
+*to combine result*     
+
 ```
 #!/usr/bin/python
 
@@ -237,6 +238,7 @@ match_and_write(hashTable, SPR_IN_PTH, SPR_OUT_PTH)
 ```
 
 *to generated salted input for Hashcat, I use follow awk script*   
+
 ```
 {	
     for (i = 0 ; i<=50; i++){

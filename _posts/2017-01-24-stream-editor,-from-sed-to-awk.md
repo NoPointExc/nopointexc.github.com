@@ -42,7 +42,11 @@ Just like `sed`, `awk` is another line-by-line filter which is based on C style 
 The basic usage is same:  
 `awk 'program' filenames...`  
 However, the program looks like `pattern {action} ...`   
-
+```
+awk '/regular exp/ {print}' filename  #print anything matched. liked grep
+awk '/regular exp/' filename # default action is print 
+awk '{print}' #default match all
+```
 The default pattern is match everything(if pattern ommited) and default action is print. 
 
 One useful option is `-f` which read prgram from a file.  
